@@ -19,7 +19,23 @@ idade = input('Qual a sua idade?')
 peso = input('Qual o seu peso?')
 print(nome, idade, peso)
 ----------------------------------------------------------------------------
+##Desafio 01
+nome = input('Qual é o seu nome?')
+print('Olá {},'.format(nome),'Seja bem vinda!')
+
+##Desafio 02
+dia = input('Qual o dia do seu nascimento?')
+mes = input('Qual mês você nasceu?')
+ano = input('qual ano você nasceu?')
+print('Você nasceu no dia',dia,'de',mes,'de',ano,'. Correto?')
+
 ##Desafio 03
+n1 = int(input("Primeiro número"))
+n2 = int(input("Segundo número"))
+s = n1 + n2
+print('A soma dos números é {}!'.format(s))
+
+##Desafio 03 extra
 n1 = int(input("Digite um número"))
 n2 = int(input("Digite um segundo número"))
 s = n1 + n2
