@@ -1,0 +1,26 @@
+
+# Exercício 01
+print('olá, Mundo!')
+
+# Exercício 02
+nome = input('Qual o seu nome?')
+print('É um prazer conhecer você,',nome)
+
+# Exercício 03
+v1 = input
+
+#Curso Python
+print('olá, Mundo!')
+print(7+4)
+print('7'+'4')
+
+nome = input('Qual o seu nome?')
+idade = input('Qual a sua idade?')
+peso = input('Qual o seu peso?')
+print(nome, idade, peso)
+----------------------------------------------------------------------------
+##Desafio 03
+n1 = int(input("Digite um número"))
+n2 = int(input("Digite um segundo número"))
+s = n1 + n2
+print('A soma dos números {}'.format(n1),'e {}'.format(n2),'é equivalente a {}'.format(s))
