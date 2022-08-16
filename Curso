@@ -34,5 +34,19 @@ n1 = int(input("informe um número"))
 n2 = int(input("Digite um segundo número"))
 s = n1 + n2
 print('A soma dos números {} e {} é equivalente a {}'.format(n1, n2, s))
+# Desafio 4
+# Faca um programa que leia algo pelo teclado
+# e mostre na tela seu tipo primitivo e todas as possiveis informações sobre ela.
+
+A = input('Digite algo ')
+print('O tipo primitivo do valor informado é ', type(A))
+print('Só tem espaços no valor informaddo? ', A.isspace())
+print('O valor informado é um número? ', A.isnumeric())
+print('O valor informado é alfabético? ', A.isalpha())
+print('O valor informado é númerico? ', A.isalnum())
+print('O valor informado está em maiúcula ', A.isupper())
+print('O valor informado está em minuscula ', A.islower())
+print('o valor informado está capitalizado Nem maiúscula e nem minúscula ', A.istitle())
+
 
 
