@@ -38,6 +38,10 @@ print('A soma dos números {} e {} é equivalente a {}'.format(n1, n2, s))
 # Faca um programa que leia algo pelo teclado
 # e mostre na tela seu tipo primitivo e todas as possiveis informações sobre ela.
 
+# Desafio 4
+# Faca um programa que leia algo pelo teclado
+# e mostre na tela seu tipo primitivo e todas as possiveis informações sobre ela.
+
 A = input('Digite algo ')
 print('O tipo primitivo do valor informado é ', type(A))
 print('Só tem espaços no valor informaddo? ', A.isspace())
@@ -47,6 +51,8 @@ print('O valor informado é númerico? ', A.isalnum())
 print('O valor informado está em maiúcula ', A.isupper())
 print('O valor informado está em minuscula ', A.islower())
 print('o valor informado está capitalizado Nem maiúscula e nem minúscula ', A.istitle())
+
+
 
 
 
