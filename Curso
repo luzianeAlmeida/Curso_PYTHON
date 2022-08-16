@@ -21,22 +21,18 @@ print(nome, idade, peso)
 ----------------------------------------------------------------------------
 ##Desafio 01
 nome = input('Qual é o seu nome?')
-print('Olá {},'.format(nome),'Seja bem vinda!')
+print('Olá {},seja bem vinda!'.format(nome))
 
 ##Desafio 02
 dia = input('Qual o dia do seu nascimento?')
 mes = input('Qual mês você nasceu?')
 ano = input('qual ano você nasceu?')
-print('Você nasceu no dia',dia,'de',mes,'de',ano,'. Correto?')
+print('Você nasceu no dia {} de {} do ano de {} Correto?'.format(dia, mes, ano))
 
-##Desafio 03
-n1 = int(input("Primeiro número"))
-n2 = int(input("Segundo número"))
-s = n1 + n2
-print('A soma dos números é {}!'.format(s))
-
-##Desafio 03 extra
-n1 = int(input("Digite um número"))
+#Desafio 03 extra
+n1 = int(input("informe um número"))
 n2 = int(input("Digite um segundo número"))
 s = n1 + n2
-print('A soma dos números {}'.format(n1),'e {}'.format(n2),'é equivalente a {}'.format(s))
+print('A soma dos números {} e {} é equivalente a {}'.format(n1, n2, s))
+
+
