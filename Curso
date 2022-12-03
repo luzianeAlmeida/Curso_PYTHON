@@ -51,6 +51,58 @@ print('O valor informado é númerico? ', A.isalnum())
 print('O valor informado está em maiúcula ', A.isupper())
 print('O valor informado está em minuscula ', A.islower())
 print('o valor informado está capitalizado Nem maiúscula e nem minúscula ', A.istitle())
+##Desafio 01
+nome = input('Qual é o seu nome?')
+print('Olá {},seja bem vinda!'.format(nome))
+
+##Desafio 02
+dia = input('Qual o dia do seu nascimento?')
+mes = input('Qual mês você nasceu?')
+ano = input('qual ano você nasceu?')
+print('Você nasceu no dia {} de {} do ano de {} Correto?'.format(dia, mes, ano))
+
+#Desafio 03 extra
+n1 = int(input("informe um número"))
+n2 = int(input("Digite um segundo número"))
+s = n1 + n2
+print('A soma dos números {} e {} é equivalente a {}'.format(n1, n2, s))
+# Desafio 4
+# Faca um programa que leia algo pelo teclado
+# e mostre na tela seu tipo primitivo e todas as possiveis informações sobre ela.
+
+ n = input('Digite algo')
+
+# Desafio 4
+# Faça um programa que leia algo pelo teclado
+# e mostre na tela seu tipo primitivo e todas as possiveis informações sobre ela.
+
+A = input('Digite algo ')
+print('O tipo primitivo do valor informado é ', type(A))
+print('Só tem espaços no valor informaddo? ', A.isspace())
+print('O valor informado é um número? ', A.isnumeric())
+print('O valor informado é alfabético? ', A.isalpha())
+print('O valor informado é númerico? ', A.isalnum())
+print('O valor informado está em maiúcula ', A.isupper())
+print('O valor informado está em minuscula ', A.islower())
+print('o valor informado está capitalizado Nem maiúscula e nem minúscula ', A.istitle())
+
+# Aula 7
+# Operações Aritiméticas
+
+n1 = int(input('Um valor'))
+n2 = int(input('Outro valor'))
+s = n1+n2
+m = n1*n2
+d = n1/n2
+di = n1//n2
+e= n1**n2
+print('A soma é {} \n o produto é {} e a divisão é {:.3f}'.format(s,m,d), end= ' ')
+print('divisao inteira {} e potência{}'.format(di, e))
+
+
+
+
+
 
 
 
