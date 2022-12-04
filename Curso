@@ -33,6 +33,7 @@ print('Você nasceu no dia {} de {} do ano de {} Correto?'.format(dia, mes, ano)
 n1 = int(input("informe um número"))
 n2 = int(input("Digite um segundo número"))
 s = n1 + n2
+
 print('A soma dos números {} e {} é equivalente a {}'.format(n1, n2, s))
 # Desafio 4
 # Faca um programa que leia algo pelo teclado
@@ -99,6 +100,12 @@ e= n1**n2
 print('A soma é {} \n o produto é {} e a divisão é {:.3f}'.format(s,m,d), end= ' ')
 print('divisao inteira {} e potência{}'.format(di, e))
 
+
+#Exercicio 5
+n1 = int(input('Informe um número'))
+s = n1+1
+a = n1-1
+print('O numero {}, possui o sucessor {} e o seu antecessor {}'.format(n1,s,a)) 
 
 
 
