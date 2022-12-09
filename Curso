@@ -108,6 +108,40 @@ a = n1-1
 print('O numero {}, possui o sucessor {} e o seu antecessor {}'.format(n1,s,a)) 
 
 
+#Exercício 5
+n1 = int(input('Informe um número'))
+s = n1+1
+a = n1-1
+print('O número {}.\n O seu sucessor {} e o seu antecessor {}'.format(n1,s,a))
+
+
+#Exercício 6
+n1 = int(input('Informe um número'))
+n2 = n1*2
+n3 = n1*3
+n4 = n1**(1/2)
+print('Dado o número {}, o seu dobro é {} e o seu triplo é {}.\n Calculando a raiz quadara de {} obtemos o resultado {}'.format(n1,n2,n3,n1,n4))
+
+
+
+#Exercício 7
+Av1 = float(input('Informe a 1ª nota do aluno Paulo'))
+Av2 = float(input('informe a 2ª nota de Paulo'))
+Media = (Av1+Av2)/2
+print('Nas suas avaliações, paulo obteve as seguites notas Av1 = {} e Av2 = {}.\n A nota final de Paulo será a médias das avaliações, logo sua nota é {}'.format(Av1,Av2,Media))
+
+
+#Exercício 08
+md1 = float(input('Informe uma medida em metro'))
+md2 = md1*100
+md3 = md1*1000
+print('Dado a medida {}m em metros, essa mesma medida em centimetros é {}cm e em milimetos {}mm.'.format(md1, md2, md3))
+
+
+#Exercício 09
+n1=int(input('Informe um número'))
+for n in range(11):
+    print('{} x {} = {}'.format(n1, n,n*n1))
 
 
 
