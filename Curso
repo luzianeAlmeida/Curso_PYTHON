@@ -140,16 +140,19 @@ print('Dado a medida {}m em metros, essa mesma medida em centimetros é {}cm e e
 
 #Exercício 09 - Com base na aula 07
 n1=int(input('Informe um número e veja sua tabuada'))
-print('{} x {} = {}'.format(n1,1,n1*1))
-print('{} x {} = {}'.format(n1,2,n1*2))
-print('{} x {} = {}'.format(n1,3,n1*3))
-print('{} x {} = {}'.format(n1,4,n1*4))
-print('{} x {} = {}'.format(n1,5,n1*5))
-print('{} x {} = {}'.format(n1,6,n1*6))
-print('{} x {} = {}'.format(n1,7,n1*7))
-print('{} x {} = {}'.format(n1,8,n1*8))
-print('{} x {} = {}'.format(n1,9,n1*9))
-print('{} x {} = {}'.format(n1,10,n1*10))
+print('_'*12)
+print('{} x {:2} = {:2}'.format(n1,1,n1*1))
+print('{} x {:2} = {:2}'.format(n1,2,n1*2))
+print('{} x {:2} = {:2}'.format(n1,3,n1*3))
+print('{} x {:2} = {:2}'.format(n1,4,n1*4))
+print('{} x {:2} = {:2}'.format(n1,5,n1*5))
+print('{} x {:2} = {:2}'.format(n1,6,n1*6))
+print('{} x {:2} = {:2}'.format(n1,7,n1*7))
+print('{} x {:2} = {:2}'.format(n1,8,n1*8))
+print('{} x {:2} = {:2}'.format(n1,9,n1*9))
+print('{} x {:2} = {:2}'.format(n1,10,n1*10))
+print('_'*12)
+
 
 #Exercício 09
 n1=int(input('Informe um número'))
@@ -159,8 +162,19 @@ for n in range(11):
 
 
 # Exercicío 10
-n = float(input('Informe um valor em reais'))
-print('Dado o valor de {:.1f} em reais. \nConsiderando o valor do dolar US 3,27, convertendo este para Dolar, temos {:.1f}'.format(n,(n/3.17)))
+Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
+n = float(input('Quantos reais você tem na cartera? R$'))
+print('Dado o valor de {:.2f} em reais. \nConsiderando o valor do dolar US$ 3,27, convertendo este para Dolar, temos US${:.1f}'.format(n,(n/3.17)))
+
+#11: Faça um programa que leia a largura e a altura de uma parede em metros,
+#calcule a sua área e a quantidade de tinta necessária para pintá-la,
+#sabendo que cada litro de tinta pinta uma área de 2 metros quadrados.
+
+Altura= float(input('Informe a altura da parede'))
+largura = float(input('Informe a largura da parede'))
+A = Altura * largura
+print('Sua parede possui as dimenções de {}m x {}m, logo a sua área é de {}m²'.format(Altura,largura, A))
+print('Considerando que para printar 2m² usa-se 1l litros de tinta\nPara pintar toda a  parede será nescessário {}l de tinta'.format(A/2))
 
 
 
