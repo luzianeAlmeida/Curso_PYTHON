@@ -177,6 +177,9 @@ print('Sua parede possui as dimenções de {}m x {}m, logo a sua área é de {}m
 print('Considerando que para printar 2m² usa-se 1l litros de tinta\nPara pintar toda a  parede será nescessário {}l de tinta'.format(A/2))
 
 
+#exrecício 12: Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto
+p = float(input('Qual preço do produto? R$'))
+print('Dado o valor do produto R${}, aplicando um desconto de 5%,temos o valor final de R${}'.format(p,p-(p*0.05)))
 
 
 
