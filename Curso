@@ -183,5 +183,8 @@ print('Dado o valor do produto R${}, aplicando um desconto de 5%,temos o valor f
 
 
 
+#exrecício 12: Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto
+p = float(input('Qual preço do produto? R$'))
+print('Dado o valor do produto R${:.2f}, aplicando um desconto de 5%,temos o valor final de R${:.2f}'.format(p,p-(p*0.05)))
 
 
