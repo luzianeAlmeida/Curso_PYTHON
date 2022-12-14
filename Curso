@@ -187,4 +187,17 @@ print('Dado o valor do produto R${}, aplicando um desconto de 5%,temos o valor f
 p = float(input('Qual preço do produto? R$'))
 print('Dado o valor do produto R${:.2f}, aplicando um desconto de 5%,temos o valor final de R${:.2f}'.format(p,p-(p*0.05)))
 
+#exrecício 13: Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15 % de aumento.
+
+s = float(input('Informe o valor do salário'))
+ns = s + (s*0.15)
+print('seja o sálario de um funcionário R${:.2f}, considerando o aumento de 15%, temos que seu novo salário, será de R${:.2f}'.format(s,ns))
+
+#exrecício 14: Escreva um programa que converta uma temperatura digitando em graus Celsius e converta para graus Fahrenheit.
+
+tc = float(input('Informe uma temperatura em graus Celcius'))
+tf = (tc * 9/5) + 32
+print('Dada a temperatura {}Cº, convertendo esta para graus Fahrenheit, temos {}ºF'.format(tc,tf))
+
+
 
